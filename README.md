@@ -11,6 +11,8 @@ Execução do **monitor de fraudes desenvolvido em Python**, analisando blocos e
 
 O terminal exibe o processamento contínuo de transações e a emissão de alertas, com integração validada ao **Splunk Enterprise** e ao **Telegram Bot**, demonstrando o funcionamento completo da arquitetura de **detecção e notificação automatizada**.
 
+![Execução em tempo real](https://github.com/Crypto-Shield256/Projeto/blob/main/Terminal.png)
+
 ### [Alertas automáticos – Telegram Bot](https://github.com/Crypto-Shield256/Projeto/blob/main/Telegram.png)
 Notificações do **bot CryptoShield Alerts**, responsável por enviar **notificações automáticas via Telegram** sobre transações suspeitas detectadas pelo sistema.
 
@@ -18,8 +20,12 @@ Os alertas incluem rede, bloco, horário (UTC e local), endereços envolvidos, v
 
 Essa integração permite que **gestores e analistas recebam avisos imediatos mesmo fora do ambiente corporativo**, em **dias de folga ou situações de plantão remoto**, garantindo **resposta rápida e proatividade** diante de eventos suspeitos.
 
+![Alertas automáticos](https://github.com/Crypto-Shield256/Projeto/blob/main/Telegram.png)
+
 ### [Alchemy - API](https://github.com/Crypto-Shield256/Projeto/blob/main/Alchemy.png)
 Painel da **Alchemy** exibindo o volume de requisições processadas, demonstrando a conectividade entre o monitor e a blockchain Ethereum Sepolia.
+
+![Alchemy API](https://github.com/Crypto-Shield256/Projeto/blob/main/Alchemy.png)
 
 ### [Armazenamento e análise – Splunk Enterprise](https://github.com/Crypto-Shield256/Projeto/blob/main/Splunk%20Enterprise.png)
 Painel do **Splunk Enterprise**, solução voltada para **armazenamento de logs, correlação de eventos e análise avançada de dados**.
@@ -28,8 +34,12 @@ Cada alerta enviado pelo sistema é estruturado em formato JSON, contendo detalh
 
 Essa integração permite **consultas precisas e históricas** dos alertas, possibilitando auditorias, investigações forenses e **melhoria contínua dos critérios de detecção**.
 
+![Splunk Enterprise](https://github.com/Crypto-Shield256/Projeto/blob/main/Splunk%20Enterprise.png)
+
 ### [Monitoramento do servidor – Ubuntu Server LTS](https://github.com/Crypto-Shield256/Projeto/blob/main/Ubuntu%20LTS.png)
 É possível observar os processos ativos do **Splunk**, **MongoDB** e **Python**, confirmando o funcionamento simultâneo e estável de todos os componentes do sistema com baixo consumo de recursos — reforçando a **viabilidade e eficiência operacional** do projeto.
+
+![Ubuntu LTS](https://github.com/Crypto-Shield256/Projeto/blob/main/Ubuntu%20LTS.png)
 
 ---
 
